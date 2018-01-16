@@ -11,7 +11,7 @@ die() {
     exit 1
 }
 
-git clone https://github.com/jelly-config-projects/maven.git "$MAVENHOME"
+git clone https://github.com/dotfile-projects/maven.git "$MAVENHOME"
 
 cd "$MAVENHOME"
 source run.sh
