@@ -1,6 +1,6 @@
 #!/bin/sh
 
-MAVENHOME=/usr/local/share/jelly/conf/maven/
+MAVENHOME=~/.dot_proj/maven/
 
 warn() {
     echo "$1" >&2
