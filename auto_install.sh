@@ -14,6 +14,6 @@ die() {
 git clone https://github.com/dotfile-projects/maven.git "$MAVENHOME"
 
 cd "$MAVENHOME"
-source run.sh
+sh run.sh
 
 echo "Install complate!!!"
